@@ -6,7 +6,8 @@
     <title>Unity WebGL Player | FFETM1_Listen</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/M1L1.json");
+	  var unityInstance = UnityLoader.instantiate("unityContainer", "Build/M1L1.json", {onProgress: UnityProgress});
+    </script>
     </script>
 	
 	    <script type="text/javascript">
